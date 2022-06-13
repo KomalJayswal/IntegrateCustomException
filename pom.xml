@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>net.learning</groupId>
 	<artifactId>IntegrateCustomException</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>IntegrateCustomException</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -31,6 +31,12 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>net.learning</groupId>
+			<artifactId>ExceptionHandlerUtility</artifactId>
+				<version>1.0.0</version>
 		</dependency>
 	</dependencies>
 
