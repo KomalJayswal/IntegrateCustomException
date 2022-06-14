@@ -27,7 +27,7 @@ public class Controller {
                 .build();
 
         if(correlationId.equals("komal"))
-        throw new CustomException(400,"ERRORSS");
+            throw new CustomException(HttpStatus.BAD_REQUEST,"ERRORSS");
 
         return ResponseEntity.status(HttpStatus.ACCEPTED).body(res);
     }
